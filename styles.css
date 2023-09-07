@@ -1,0 +1,67 @@
+/* Reset de estilos para remover margens e preenchimentos padrão */
+body, h1, h2, p, ul, img {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+section {
+    background-color: #fff;
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    color: #333;
+}
+
+.icon-image {
+    max-width: 138px;
+    height: auto;
+    position: absolute;
+    left: 1235px;
+    top: 10px;
+    z-index: 1;
+    border-radius: 5px;
+}
+
+.img-container {
+    position: relative;
+    text-align: center;
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    font-style: italic;
+    padding-top: 20px;
+    color: #777;
+}
